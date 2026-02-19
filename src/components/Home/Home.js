@@ -4,14 +4,8 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import Techstack from "../About/Techstack";
-import Github from "../About/Github";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
+import { FaLinkedinIn, FaMapMarkerAlt } from "react-icons/fa";
 
 function Home() {
   return (
@@ -22,15 +16,15 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+                Hello!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                I&apos;M
+                <strong className="main-name"> HARSHA RAMIREDDY</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -41,7 +35,7 @@ function Home() {
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}
-                alt="home pic"
+                alt="aerospace engineering portfolio"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
               />
@@ -54,49 +48,29 @@ function Home() {
       <Container>
         <Row style={{ paddingTop: "50px", paddingBottom: "80px" }}>
           <Col md={12} className="home-about-social">
-            <h1>Find Me On</h1>
+            <h1>Contact</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Open to roles in <span className="purple">electrical systems design</span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
-                <a
-                  href="https://github.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
+                <a href="mailto:rharshavardhan1@gmail.com" className="icon-colour home-social-icons">
+                  <AiOutlineMail />
                 </a>
               </li>
               <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
+                <a href="tel:+919966061681" className="icon-colour home-social-icons">
+                  <AiOutlinePhone />
                 </a>
               </li>
               <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
+                <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" className="icon-colour home-social-icons">
                   <FaLinkedinIn />
                 </a>
               </li>
               <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
+                <a href="https://maps.google.com/?q=Krishnarajapuram+Bangalore+India" target="_blank" rel="noreferrer" className="icon-colour home-social-icons">
+                  <FaMapMarkerAlt />
                 </a>
               </li>
             </ul>

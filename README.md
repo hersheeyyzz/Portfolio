@@ -21,19 +21,10 @@ Personal portfolio website built with React, customized for aerospace/electrical
 
 ## Deploy to GitHub Pages
 
-1. Ensure `homepage` in `package.json` is:
-   ```text
-   https://hersheeyyzz.github.io/Portfolio
-   ```
-2. Publish to `gh-pages` branch:
+1. Update the `homepage` value in `package.json` with your GitHub username/repository.
+2. Deploy:
    ```bash
    npm run deploy
    ```
-3. In GitHub repository settings, go to **Pages** and set source to:
-   - **Branch:** `gh-pages`
-   - **Folder:** `/ (root)`
 
-After deployment, open:
-`https://hersheeyyzz.github.io/Portfolio`
-
-If you only see README, your Pages source is likely still pointing to `main` branch instead of `gh-pages`.
+This will build and publish the `build/` output to the `gh-pages` branch.

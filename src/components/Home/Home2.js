@@ -10,41 +10,27 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              PROFESSIONAL <span className="purple">PROFILE</span>
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              Aerospace Engineer with 6+ years of experience in EWIS design,
+              integration, and configuration management for large commercial and
+              defense aerospace programs.
               <br />
               <br />
-              I’m proficient in
-              <i>
-                <b className="purple">
-                  {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
-                </b>
-              </i>
-              — and I enjoy working across both backend and frontend stacks.
+              Currently contributing at <b className="purple">AIRBUS India</b>
+              {" "}for single-aisle aircraft electrical systems installation,
+              physical design and integration.
               <br />
               <br />
-              My key areas of interest include developing
-              <i>
-                <b className="purple">
-                  {" "}
-                  Web Applications, Blockchain Solutions,{" "}
-                </b>
-              </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              Expertise includes <b className="purple">CATIA V5, ENOVIA, SAP,
+              TAKSY, EBAM</b>, and compliance-focused design reviews aligned to
+              Airbus standards and EASA frameworks.
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+              I enjoy solving complex integration challenges, driving cross-team
+              collaboration, and building process improvements that scale quality
+              and delivery performance.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -57,4 +43,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
